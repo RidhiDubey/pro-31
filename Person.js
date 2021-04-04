@@ -4,7 +4,7 @@ class Person{
         this.width=width;
         this.height=height;
 
-        this.image=loadImage("Walking Frame/walking_1.png","Walking Frame/walking_2.png","Walking Frame/walking_3.png","Walking Frame/walking_4.png");
+        this.image=loadImage("Walking Frame/walking_1.png","Walking Frame/walking_2.png","Walking Frame/walking_3.png");
 
         World.add(world,this.body);
     }
